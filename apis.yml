@@ -1,8 +1,26 @@
 aid: zingroll
 name: Zingroll
-description: 'Zingroll is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Zingroll is a consumer AI entertainment platform that generates personalized
+  episodic video shows starring the user. A person uploads a single selfie and Zingroll
+  casts them as the lead in an AI-generated series spanning up to 200 episodes across
+  genres including action, romance, horror, and comedy, which can then be watched and
+  shared. Backed by Accel, Zingroll operates in the AI media and generative-video space.
+  The company runs a public consumer web application at zingroll.com but publishes no
+  public developer API, SDK, or documentation surface at this time; this profile tracks
+  it in the API Evangelist network as an AI-sector lead.'
 url: https://raw.githubusercontent.com/api-evangelist/zingroll/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://zingroll.com/zlogo.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai
+- Generative AI
+- Video Generation
+- Entertainment
+- Media
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +45,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/zingroll-domain-security.yml
 - type: Website
   url: https://www.zingroll.com
+- type: PrivacyPolicy
+  url: https://zingroll.com/privacy
+- type: TermsOfService
+  url: https://zingroll.com/terms
+- type: HelpCenter
+  url: https://zingroll.com/faq
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
