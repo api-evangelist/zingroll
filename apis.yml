@@ -9,6 +9,17 @@ description: 'Zingroll is a consumer AI entertainment platform that generates pe
   public developer API, SDK, or documentation surface at this time; this profile tracks
   it in the API Evangelist network as an AI-sector lead.'
 url: https://raw.githubusercontent.com/api-evangelist/zingroll/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
